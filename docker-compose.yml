@@ -3,19 +3,19 @@ services:
   devops:
     image: satya6303/devops:latest
     ports:
-      - "81:80"
+      - "91:80"
     deploy:
       replicas: 3
   machine_learning:
     image: satya6303/machine_learning:latest
     ports:
-      - "82:80"
+      - "92:80"
     deploy:
       replicas: 3
   fulstack:
     image: satya6303/fulstack:latest
     ports:
-      - "83:80"
+      - "93:80"
     deploy:
       replicas: 3
 
